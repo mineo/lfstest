@@ -1,0 +1,9 @@
+language: python
+dist: xenial
+cache:
+  pip: true
+  directories:
+    - "$HOME/Downloads"
+python: "3.6"
+script:
+  - git lfs --version
